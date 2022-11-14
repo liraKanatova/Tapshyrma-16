@@ -1,11 +1,13 @@
 public class Shark extends Animal{
 
 
-    @Override
-    public void animalClass() {
-        System.out.println("Animal from class : Fish");
+    public Shark(String name, int age, String color) {
+        super(name, age, color);
     }
-    public void getAttack(){
-        System.out.println("Shark is an ocean predator");
+
+
+
+    public void attack(){
+        super.attack();
     }
 }

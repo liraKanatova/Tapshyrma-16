@@ -1,11 +1,13 @@
 public class Turtle extends Animal{
 
 
-    @Override
-    public void animalClass() {
-        System.out.println("Animal from class : Reptilia");
+    public Turtle(String name, int age, String color) {
+        super(name, age, color);
     }
-    public void getSwim(){
-        System.out.println("Sea and freshwater Turtles can swim");
+
+
+
+    public void swim(){
+        super.swim();
     }
 }
